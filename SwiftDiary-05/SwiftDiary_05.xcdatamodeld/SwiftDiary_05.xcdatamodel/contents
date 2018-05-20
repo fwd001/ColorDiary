@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B48" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Content" representedClassName="ContentMo" syncable="YES" codeGenerationType="class">
+        <attribute name="contentLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayOfWeek" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="timeLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="yearAndMonthLabel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfoMo" syncable="YES" codeGenerationType="class">
+        <attribute name="headPortrait" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="sign" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Content" positionX="-54" positionY="-9" width="128" height="135"/>
+        <element name="UserInfo" positionX="-54" positionY="36" width="128" height="75"/>
+    </elements>
+</model>
